@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react'
-import Navbar from '../components/Navbar'
-import FilterSidebar from '../components/FilterSidebar'
-import InternshipCard from '../components/InternshipCard'
+import Navbar from '../components/Navbar.jsx'
+import FilterSidebar from '../components/FilterSidebar.jsx'
+import InternshipCard from '../components/InternshipCard.jsx'
 import { getInternships } from '../api/api.js'
 
 
